@@ -8,8 +8,10 @@ body {
     text-align:center;
 }
 .set {
-    width: 70%;
-    margin: 100px auto;
+    margin-top: 100px;
+}
+img {
+    width:200px;
 }
 .box {
     display:inline-block;
