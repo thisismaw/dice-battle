@@ -1,0 +1,21 @@
+.html, body {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+body {
+    text-align:center;
+}
+.set {
+    width: 70%;
+    margin: 100px auto;
+}
+.box {
+    display:inline-block;
+    margin: 1em 2em;
+}
+.playername{
+    padding: 0 1em;
+    font-size:3em;
+}
