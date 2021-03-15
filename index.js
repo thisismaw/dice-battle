@@ -12,9 +12,10 @@ var generateRoll = document.querySelectorAll(".roll")[0].addEventListener("click
 
     if (diceRandom > diceRandom2)
     {
-        document.querySelector("h2").innerHTML = "Player 1 Wins!"
+        document.querySelector("h2").innerHTML = "Player 1 Wins!";
+
     }
     else {
-        document.querySelector("h2").innerHTML = "Player 2 Wins!"
+        document.querySelector("h2").innerHTML = "Player 2 Wins!";
     }
 })

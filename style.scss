@@ -1,0 +1,63 @@
+.html, body {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+h1 {
+    font-size:4em;
+    color: rgb(154,40,144);
+    font-family: 'DotGothic16', sans-serif; 
+    animation: glow 1s infinite alternate ease-in-out;
+
+}
+.winner{
+    color:rgb(229,171,61);
+    font-size: 5em;
+    font-family: 'DotGothic16', sans-serif;
+    animation: gold 1s infinite alternate ease-in-out;
+}
+body {
+    background-color: rgb(27,27,29);
+    text-align:center;
+}
+.set {
+    margin-top: 100px;
+}
+img {
+    width:200px;
+}
+.box {
+    display:inline-block;
+    margin: 1em 2em;
+}
+.playername{
+    font-family: 'DotGothic16', sans-serif;
+    padding: 0 1em;
+    font-size:3em;
+    color: rgb(191,191,191);
+}
+.roll {
+    margin-top: 1em;
+    padding: .5em;
+    border-radius: .5em;
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 1.3em;
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 1px #fff, 0 0 5px rgb(139, 59, 133), 0 0 6px rgb(139, 59, 133);
+    }
+    to {
+        text-shadow: 0 0 2px #fff,0 0 10px rgb(154,40,144), 0 0 12px rgb(154,40,144);
+    }
+}
+
+@keyframes gold {
+from {
+text-shadow: 0 0 1px #fff, 0 0 1px rgb(184, 144, 69);
+}
+ to {
+    text-shadow: 0 0 2px #fff,0 0 5px rgb(229,171,61);
+ }
+}
