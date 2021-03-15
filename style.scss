@@ -42,14 +42,20 @@ img {
     border-radius: .5em;
     font-family: 'DotGothic16', sans-serif;
     font-size: 1.3em;
+    transition: .2s all;
+    cursor: pointer;
+    &:hover {
+        background-color: rgb(185, 176, 176);
+        transition: .2s all;
+    }
 }
 
 @keyframes glow {
     from {
-        text-shadow: 0 0 1px #fff, 0 0 5px rgb(139, 59, 133), 0 0 6px rgb(139, 59, 133);
+        text-shadow: 0 0 1px #fff, 0 0 4px rgb(139, 59, 133), 0 0 6px rgb(139, 59, 133);
     }
     to {
-        text-shadow: 0 0 2px #fff,0 0 10px rgb(154,40,144), 0 0 12px rgb(154,40,144);
+        text-shadow: 0 0 2px #fff,0 0 8px rgb(154,40,144), 0 0 12px rgb(154,40,144);
     }
 }
 
@@ -58,6 +64,6 @@ from {
 text-shadow: 0 0 1px #fff, 0 0 1px rgb(184, 144, 69);
 }
  to {
-    text-shadow: 0 0 2px #fff,0 0 5px rgb(229,171,61);
+    text-shadow: 0 0 2px #fff,0 0 4px rgb(229,171,61);
  }
 }
