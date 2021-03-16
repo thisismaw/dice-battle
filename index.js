@@ -13,12 +13,17 @@ var generateRoll = document.querySelectorAll(".roll")[0].addEventListener("click
     if (diceRandom > diceRandom2)
     {
         document.querySelector("h2").innerHTML = "Player 1 Wins!";
-
+        var audio = new Audio("soundfx/arcadealert.wav");
+        audio.play();
     }
     else if (diceRandom < diceRandom2) {
         document.querySelector("h2").innerHTML = "Player 2 Wins!";
+        var audio = new Audio("soundfx/arcadealert.wav");
+        audio.play();
     }
     else {
         document.querySelector("h2").innerHTML = "It's A Tie!";
+        var audio = new Audio("soundfx/tiesound.wav");
+        audio.play();
     }
 })
