@@ -54,6 +54,7 @@ img {
   font-size: 1.3em;
   -webkit-transition: .2s all;
   transition: .2s all;
+  margin-bottom: 1em;
   cursor: pointer;
 }
 
