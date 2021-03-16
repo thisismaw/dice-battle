@@ -1,3 +1,3 @@
 # dice-roll-enhanced
- a dice battle between player 1 and player 2
-https://thisismaw.github.io/dice-battle/
+ a dice battle between 2 players
+link : https://thisismaw.github.io/dice-battle/
